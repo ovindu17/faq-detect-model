@@ -1,0 +1,78 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+out/
+
+# Debug logs
+logs/
+*.log
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor folders
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# Python specific (if you use Python for any part of your project)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Any large files or model weights
+*.h5
+*.onnx
+*.bin
+*.pb
+
+# Data directories you may not want to version
+# Comment these out if you DO want to version your data
+# data/large_files/
+# data/raw/
+# data/processed/
+
+# Keep the structure but ignore specific large files
+# Uncomment and modify if you have specific large files to ignore
+# data/**/*.csv
+# data/**/*.json
