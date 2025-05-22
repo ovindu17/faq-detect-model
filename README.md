@@ -96,6 +96,4 @@ You can adjust these parameters in `faqdetect.js`:
 - `HNSW_M`: Controls graph connectivity (higher = better recall, more memory)
 - `HNSW_EF_SEARCH`: Controls search accuracy (higher = better, slower)
 
-## License
 
-[Your License]
